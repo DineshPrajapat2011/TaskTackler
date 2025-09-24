@@ -48,7 +48,7 @@ export default function ContactPage() {
                 <input 
                   type="tel" 
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-transparent outline-none transition-all"
-                  placeholder="(555) 123-4567"
+                  placeholder="+91 78019 11318"
                 />
               </div>
             </div>
@@ -98,6 +98,9 @@ export default function ContactPage() {
             >
               Schedule Free Consultation
             </button>
+            <p className="text-xs text-gray-500 mt-2 text-center">
+              Note: Email notifications are currently being configured. For immediate assistance, please call +91 78019 11318
+            </p>
           </form>
         </div>
 
@@ -112,8 +115,18 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <div className="font-medium text-gray-900">Email</div>
-                  <div className="text-gray-600">info@tasktackler.com</div>
+                  <div className="text-gray-600">info@tasktacklerinfotech.com</div>
                   <div className="text-sm text-gray-500">We&apos;ll respond within 4 hours</div>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 bg-brand-600 rounded-lg flex items-center justify-center text-white">
+                  🛠️
+                </div>
+                <div>
+                  <div className="font-medium text-gray-900">Support</div>
+                  <div className="text-gray-600">support@tasktacklerinfotech.com</div>
+                  <div className="text-sm text-gray-500">Technical support & maintenance</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -122,8 +135,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <div className="font-medium text-gray-900">Phone</div>
-                  <div className="text-gray-600">+1 (555) 123-4567</div>
-                  <div className="text-sm text-gray-500">Mon-Fri 9AM-6PM EST</div>
+                  <div className="text-gray-600">+91 78019 11318</div>
+                  <div className="text-sm text-gray-500">Mon-Fri 9AM-6PM IST</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -132,8 +145,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <div className="font-medium text-gray-900">Office</div>
-                  <div className="text-gray-600">123 Tech Street, Suite 100</div>
-                  <div className="text-gray-600">San Francisco, CA 94105</div>
+                  <div className="text-gray-600">TaskTackler InfoTech</div>
+                  <div className="text-gray-600">India</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">

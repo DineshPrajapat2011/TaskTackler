@@ -129,7 +129,7 @@ export default function ProjectInquiryPage() {
                 type="tel"
                 value={phone} 
                 onChange={(e) => setPhone(e.target.value)} 
-                placeholder="(555) 123-4567"
+                placeholder="+91 78019 11318"
                 className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-transparent outline-none transition-all"
               />
             </div>

@@ -62,6 +62,8 @@ export function Footer() {
             <h4 className="font-semibold text-lg">Support</h4>
             <div className="space-y-2">
               <Link href="/contact" className="block text-gray-400 hover:text-white transition-colors text-sm">Contact Us</Link>
+              <a href="mailto:support@tasktacklerinfotech.com" className="block text-gray-400 hover:text-white transition-colors text-sm">Technical Support</a>
+              <a href="mailto:admin@tasktacklerinfotech.com" className="block text-gray-400 hover:text-white transition-colors text-sm">Admin/Quotes</a>
               <Link href="#" className="block text-gray-400 hover:text-white transition-colors text-sm">Help Center</Link>
               <Link href="#" className="block text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</Link>
               <Link href="#" className="block text-gray-400 hover:text-white transition-colors text-sm">Terms of Service</Link>
