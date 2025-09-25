@@ -61,7 +61,7 @@ export default function ServicesPage() {
     {
       id: 6,
       title: 'Cybersecurity Audit',
-      category: 'Security',
+      category: 'DevOps',
       description: 'Comprehensive security assessment and penetration testing to identify vulnerabilities and strengthen your systems.',
       features: ['Vulnerability Assessment', 'Penetration Testing', 'Security Report', 'Remediation Plan'],
       pricing: 'Starting at $1,800',
@@ -70,7 +70,7 @@ export default function ServicesPage() {
     }
   ]
 
-  const categories = ['All', 'Web Development', 'Cloud Solutions', 'Mobile Development', 'DevOps', 'Security']
+  const categories = ['All', 'Web Development', 'Cloud Solutions', 'Mobile Development', 'DevOps']
 
   const filteredServices = services.filter(service => 
     selectedCategory === 'All' || service.category === selectedCategory

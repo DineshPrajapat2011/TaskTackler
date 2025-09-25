@@ -62,49 +62,6 @@ export default function AboutPage() {
           ))}
         </div>
       </div>
-
-      {/* Team */}
-      <div className="bg-gray-50 rounded-2xl p-8 lg:p-12 -mx-4">
-        <div className="text-center space-y-4 mb-12">
-          <h2 className="text-3xl font-bold text-gray-900">Our Leadership Team</h2>
-          <p className="text-lg text-gray-600">Experienced professionals leading our technology initiatives</p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {[
-            { name: 'Alex Rodriguez', role: 'CEO & Founder', avatar: 'AR', expertise: 'Business Strategy & Digital Transformation' },
-            { name: 'Sarah Kim', role: 'CTO', avatar: 'SK', expertise: 'Cloud Architecture & DevOps' },
-            { name: 'David Chen', role: 'Lead Developer', avatar: 'DC', expertise: 'Full-Stack Development & Security' }
-          ].map((member, i) => (
-            <div key={i} className="text-center bg-white rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-all">
-              <div className="w-24 h-24 bg-gradient-to-br from-brand-400 to-brand-600 rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
-                {member.avatar}
-              </div>
-              <h3 className="font-semibold text-lg text-gray-900">{member.name}</h3>
-              <p className="text-brand-600 font-medium mb-2">{member.role}</p>
-              <p className="text-gray-600 text-sm">{member.expertise}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Certifications & Expertise */}
-      <div className="space-y-8">
-        <h2 className="text-3xl font-bold text-center text-gray-900">Certifications & Expertise</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {[
-            { name: 'AWS Certified', icon: '☁️', type: 'Cloud Solutions' },
-            { name: 'Microsoft Azure', icon: '🔷', type: 'Cloud Platform' },
-            { name: 'ISO 27001', icon: '🔒', type: 'Security Standard' },
-            { name: 'Agile Certified', icon: '⚡', type: 'Project Management' }
-          ].map((cert, i) => (
-            <div key={i} className="bg-white rounded-xl border border-gray-200 p-4 text-center shadow-sm hover:shadow-lg transition-all">
-              <div className="text-3xl mb-2">{cert.icon}</div>
-              <h3 className="font-semibold text-gray-900 mb-1">{cert.name}</h3>
-              <p className="text-gray-600 text-sm">{cert.type}</p>
-            </div>
-          ))}
-        </div>
-      </div>
     </div>
   )
 }
