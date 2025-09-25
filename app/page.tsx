@@ -28,23 +28,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="text-center">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          {[
-            { number: '150+', label: 'Projects Delivered' },
-            { number: '50+', label: 'Happy Clients' },
-            { number: '5+', label: 'Years Experience' },
-            { number: '24/7', label: 'Support Available' }
-          ].map((stat, i) => (
-            <div key={i} className="space-y-2">
-              <div className="text-3xl lg:text-4xl font-bold text-brand-600">{stat.number}</div>
-              <div className="text-sm text-gray-600 font-medium">{stat.label}</div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Services Overview */}
       <section>
         <div className="text-center space-y-4 mb-12">

@@ -27,14 +27,8 @@ export default function AboutPage() {
               goals, streamline operations, and stay competitive in the digital age.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Today, we&apos;re proud to have delivered over 150 successful projects, serving clients 
-              from startups to enterprise organizations across various industries.
+              Today, we&apos;re proud to serve clients from startups to enterprise organizations across various industries.
             </p>
-          </div>
-          <div className="bg-gradient-to-br from-brand-100 to-brand-200 rounded-xl p-8 text-center">
-            <div className="text-6xl mb-4">�</div>
-            <div className="text-2xl font-bold text-brand-700 mb-2">150+</div>
-            <div className="text-brand-600">Projects Delivered</div>
           </div>
         </div>
       </div>
@@ -109,26 +103,6 @@ export default function AboutPage() {
               <p className="text-gray-600 text-sm">{cert.type}</p>
             </div>
           ))}
-        </div>
-      </div>
-
-      {/* Company Stats */}
-      <div className="bg-gradient-to-r from-brand-600 to-brand-700 rounded-2xl p-8 lg:p-12 -mx-4 text-white">
-        <div className="text-center space-y-8">
-          <h2 className="text-3xl font-bold">Our Impact in Numbers</h2>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { number: '150+', label: 'Projects Delivered' },
-              { number: '50+', label: 'Happy Clients' },
-              { number: '5+', label: 'Years Experience' },
-              { number: '99.9%', label: 'Uptime Guarantee' }
-            ].map((stat, i) => (
-              <div key={i} className="text-center">
-                <div className="text-3xl lg:text-4xl font-bold mb-2">{stat.number}</div>
-                <div className="text-sm opacity-90">{stat.label}</div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </div>
