@@ -78,7 +78,6 @@ export function Footer() {
           <div className="flex items-center gap-6 text-sm text-gray-400">
             <span>🔒 Secure payments</span>
             <span>⚡ 24/7 support</span>
-            <span>✅ Money-back guarantee</span>
           </div>
         </div>
       </div>
